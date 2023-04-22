@@ -1,0 +1,127 @@
+#navbar{
+    position:sticky;
+    top:0;
+    left:0;
+    z-index: 100;
+    padding:.5rem 5rem;   
+    box-shadow:5px 5px 20px rgba(0,0,0,0.5);
+    background: black; 
+}
+.navbar .navbar-brand{
+    font-size:25px;
+    font-weight:800;
+    color: #dbbf72 !important;
+}
+#navbarsupportedcontent a{
+    color:#ffff;
+     border-bottom:2px solid transparent;
+}
+#navbarsupportedcontent a:hover{
+    border-bottom:2px solid #29f700;
+}
+#navbarsupportedcontent button{
+    background:rgb(19, 247, 19);
+    width:5rem;
+    border-radius: 15px;
+}
+#home{
+background:linear-gradient(rgba(0,0,0,0.7 ),rgba(0,0,0,0.8)), url(bg1.jpg);
+background-size:cover;
+background-position:center; 
+}
+#home h1{
+    font-size:70px;
+    letter-spacing:3px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-shadow:0px 1px 0px #ccc ,
+     0px 1px 0px #ccc ,
+0px 2px 0px #ccc ,
+0px 3px 0px #ccc ,
+0px 4px 0px #ccc;
+}
+#homee h2{
+    margin-right: to right 90px;
+    padding-left: 110px;
+    font-size :50px;
+    letter-spacing: 2px;
+    font-weight:20px;
+    
+    font-family: verdana,geneva,tahoma,sans-serif;
+}
+#homee p{
+    
+    font color: #ffff;
+
+    justify-content:center;
+    text-align: center;
+    font-weight:1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#about {
+    background-color:#dbbf72;
+}
+#form {
+    background-color: rgba(106, 114, 58, 0.6);
+}.sign{
+    background-color: #2bb855;
+    
+}
+#contact {
+    color: #dad264;
+    padding: 50px 0;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+        background:linear-gradient(rgba(0,0,0,0.3 ),rgba(0,0,0,0.3)), url(con.jpg);
+        background-size:cover;
+        background-position:center; 
+        } 
+  
+  #contact h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  #contact-form label {
+    font-weight: bold;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border-bottom: 1px solid #ddd;
+  }
+  .sig{
+    background-color: #dddddd;
+    margin-left: 140px;
+  }
+  .si{
+    background-color: #dddddd;
+    margin-left: 140px;
+  }
+  
+  #contact-form input:focus,
+  #contact-form textarea:focus {
+    border-bottom: 2px solid #007bff;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  
+  #contact-form button {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    #contact h3 {
+      margin-top: 50px;
+    }
+  
+    #contact-form button {
+      margin-top: 30px;
+    }
+  }
+  
